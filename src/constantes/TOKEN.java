@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lexico;
+package constantes;
 
 public class TOKEN
 {
@@ -15,18 +15,18 @@ public class TOKEN
     public static final String TOKEN_END = "Final_Arquivo";
     public static final String TOKEN_AP  = "Abrir_Parenteses";
     public static final String TOKEN_FP  = "Fechar_Parenteses";
-    public static final String TOKEN_FCOL  = "Fechar_COLCHETES";
-    public static final String TOKEN_ACOL  = "Abrir_COLCHETES";
-    public static final String TOKEN_AC  = "ABRIR_CHAVES";
-    public static final String TOKEN_FC = "FECHAR_CHAVES";
+    public static final String TOKEN_FCOL = "Fechar_COLCHETES";
+    public static final String TOKEN_ACOL = "Abrir_COLCHETES";
+    public static final String TOKEN_AC   = "ABRIR_CHAVES";
+    public static final String TOKEN_FC   = "FECHAR_CHAVES";
     
     public static final String TOKEN_AST = "ASTERISCO";
-    public static final String TOKEN_BARRA  = "BARRA";
+    public static final String TOKEN_BARRA = "BARRA";
     public static final String TOKEN_A = "ARROBA";
     public static final String TOKEN_UNDER = "UNDERSCORE";
     public static final String TOKEN_ANDb  = "AND BIT";
     public static final String TOKEN_ORb = "OR BIT";
-    public static final String TOKEN_AND  = "AND";
+    public static final String TOKEN_AND = "AND";
     public static final String TOKEN_OR = "OR";
     public static final String TOKEN_CARD = "CARDINAL";
      
@@ -65,12 +65,13 @@ public class TOKEN
     public static final String TOKEN_ID = "IDENTIFICADOR";
     public static final String TOKEN_CM = "COMENTARIO";
      public static final String TOKEN_NUMERO = "NUMERO";
-    
-    public static final String TOKEN_NF = "NUMERO_FLUTUANTE";
-    public static final String TOKEN_NI = "NUMERO_INTEIRO";
+     
     public static final String TOKEN_FDI = "FINAL_DE_INSTRUCAO";
-      public static final String TOKEN_CH = "CHAR";
+    public static final String TOKEN_CH = "CHAR";
     public static final String TOKEN_ST = "STRING";
     public static final String TOKEN_NOTI = "NAO IGUAL";
     public static final String TOKEN_KW = "KEYWORD";
+    
+  public static final String TOKEN_N = "BARRA_N";   
+  public static final String TOKEN_T = "BARRA_T";   
 }

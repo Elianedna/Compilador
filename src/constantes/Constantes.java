@@ -8,14 +8,17 @@ package constantes;
  *
  * @author watel
  */
-public class Const
+public class Constantes
 {
     public String lexema;
-    public String token; 
+    public String token;
+    public int linha = 0;
 
-    public Const(String lexema, String token) 
+    public Constantes(String lexema, String token, int linha) 
     {
         this.lexema = lexema;
         this.token = token;
+        this.linha = linha;
     }
+    
 }
